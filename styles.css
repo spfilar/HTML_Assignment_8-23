@@ -15,7 +15,8 @@ body {
     background-color: #334333;
     position: fixed;
     overflow: auto;
-    height: 100%;
+    border: 1px solid black;
+    border-bottom: none;
 }
 
 .navbar li a {
@@ -25,6 +26,11 @@ body {
 	text-align: center;
 	padding: 15px 17px;
 	text-decoration: none;
+	border-bottom: 1px solid black;
+}
+
+.navbar li a:hover {
+	background-color: grey;
 }
 
 h1 {
@@ -61,13 +67,20 @@ p {
 .feature {
 	display: inline-block;
 	vertical-align: top;
-	padding: 50px;
+	padding: 50px 50px 10px 50px;
 }
 
 .feature p {
 	width: 200px;
 	text-align: center;
 	color: black;
+}
+
+.ratpics {
+	display: inline-block;
+	vertical-align: top;
+	padding: 20px;
+	text-align: center;
 }
 
 .images {
